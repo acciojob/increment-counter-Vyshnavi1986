@@ -13,7 +13,7 @@
             font-size: 24px;
             margin-bottom: 20px;
         }
-        #incrementButton {
+        #incrementBtn {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
@@ -23,12 +23,12 @@
 <body>
     <h1>Increment Counter</h1>
     <div id="counter">0</div>
-    <button id="incrementButton">Increment</button>
+    <button id="incrementBtn">Increment</button>
 
     <script>
         // Get reference to the counter element and increment button
         const counterElement = document.getElementById("counter");
-        const incrementButton = document.getElementById("incrementButton");
+        const incrementBtn = document.getElementById("incrementBtn");
 
         // Initialize counter variable
         let counterValue = 0;
@@ -40,7 +40,7 @@
         }
 
         // Add click event listener to increment button
-        incrementButton.addEventListener("click", incrementCounter);
+        incrementBtn.addEventListener("click", incrementCounter);
     </script>
 </body>
 </html>
